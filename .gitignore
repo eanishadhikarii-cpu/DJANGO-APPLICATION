@@ -1,0 +1,44 @@
+# ------------------------------
+# Root .gitignore (single source)
+# Covers both backend/ and frontend/
+# ------------------------------
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+*.log
+
+# Virtualenv
+venv/
+.venv/
+
+# Environment files
+.env
+.env.*
+
+# Django
+staticfiles/
+media/
+local_settings.py
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Vite (sometimes used outputs)
+dist/
+
+# Java / Build tools (safety)
+target/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
